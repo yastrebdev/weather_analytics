@@ -22,7 +22,7 @@ venv/
 
 # Данные и базы, которые не нужны в репозитории
 data/*.csv
-!data/capital.csv
+!data/capitals.csv
 data/*.json
 !data/meteo_data.json
 db/*.db

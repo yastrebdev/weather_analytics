@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+*.venv
+env/
+venv/
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+
+# Данные и базы, которые не нужны в репозитории
+data/*.csv
+!data/capital.csv
+data/*.json
+!data/meteo_data.json
+db/*.db
+!db/meteo.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Сборки и дистрибутивы
+build/
+dist/
+*.egg-info/
